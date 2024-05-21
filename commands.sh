@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create cluster
-kind create cluster
+kind create cluster --config=kind.yaml
 
 # Deploy application
 kubectl apply -f k8s/1-config

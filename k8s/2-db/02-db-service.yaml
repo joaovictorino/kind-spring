@@ -4,7 +4,7 @@ metadata:
   name: mysqldb
   namespace: aulainfra
 spec:
-  type: ClusterIP
+  clusterIP: None
   ports:
     - name: "3306"
       port: 3306
